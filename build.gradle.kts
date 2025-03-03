@@ -18,6 +18,8 @@ repositories {
 }
 
 dependencies {
+    implementation("io.temporal:temporal-sdk:1.28.0")
+    implementation("io.temporal:temporal-spring-boot-autoconfigure-alpha:1.23.2")
     implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
