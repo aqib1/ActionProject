@@ -1,6 +1,6 @@
-package org.example.auctionproject.domain.auction;
+package io.temporal.hackathon.domain.auction;
 
-import org.example.auctionproject.domain.bid.Bid;
+import io.temporal.hackathon.domain.bid.Bid;
 
 import java.util.List;
 
@@ -11,3 +11,5 @@ public record AuctionStats(
         List<Bid> previousBids
 ) {
 }
+
+
